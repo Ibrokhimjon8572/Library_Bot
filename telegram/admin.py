@@ -6,10 +6,6 @@ from django_admin_listfilter_dropdown.filters import (
 )
 
 
-
-
-
-
 class TelegramUserAdmin(admin.ModelAdmin):
     model = TelegramUser
     list_display = ('phone', 'username', 'fullname', 'step', 'user_role', 'warning_time', 'referred_by', 'balance')
