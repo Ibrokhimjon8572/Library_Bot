@@ -1,0 +1,166 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-05-02 18:19+0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: telegram/bot.py:43 telegram/channel_checker.py:32
+msgid "check_channels"
+msgstr "Tekshirish"
+
+#: telegram/bot.py:46
+msgid "join_channels"
+msgstr "Botdan foydalanish uchun quyidagi kanallarga obuna bo'ling:"
+
+#: telegram/bot.py:55
+msgid "send_phone"
+msgstr "Iltimos, raqamingizni kontakt shaklida yuboring❗"
+
+#: telegram/bot.py:67
+#, python-format
+msgid "referal_joined %(balance)d"
+msgstr "Sizga referal qo'shildi! Sizning balans: %(balance)d so'm."
+
+#: telegram/bot.py:70
+msgid "not_uzbek"
+msgstr "Bot faqat O'zbekiston abonentlari uchun ishlaydi"
+
+#: telegram/bot.py:75
+#, python-format
+msgid "earn_money_text %(bot_name)s %(ref)s %(balance)d"
+msgstr "Botimizda pul ishlash uchun shu referal ssilkangizni do'stlaringizga "
+"yuboring: https://t.me/%(bot_name)s?start=%(ref)s\n"
+"\n"
+"Har bir taklif qilgan do'stingiz uchun %(balance)d so'mdan beriladi"
+
+#: telegram/bot.py:82
+#, python-format
+msgid "balance %(balance)d"
+msgstr "Siz %(balance)d so'm ishlagansiz."
+
+#: telegram/bot.py:89
+msgid "enter_balance"
+msgstr "Yechib olmoqchi bo'lgan summangizni kiriting"
+
+#: telegram/bot.py:92
+msgid "history"
+msgstr "Botimiz To’lovlarini bu kanalda kuzatib borishingiz mumkin @winnerviplatuz"
+
+#: telegram/bot.py:95
+#, python-format
+msgid "manual %(ref)s %(bot_name)s"
+msgstr "Botda pul ishlash uchun do'stlaringizni taklif qiling. Bu ssilkani "
+"do'stlaringizga yuboring: https://t.me/%(bot_name)s?start=%(ref)s\n"
+"\n"
+"Tushunmagan bo'lsangiz youtube dagi videoni ko'ring (link_to_video)"
+
+#: telegram/bot.py:99
+#, python-format
+msgid "stats %(users_count)d"
+msgstr "Botda %(users_count)d ta foydalanuvchi bor."
+
+#: telegram/bot.py:104 telegram/keyboards.py:31
+msgid "back"
+msgstr "🔙Orqaga"
+
+#: telegram/bot.py:112
+msgid "enter valid number"
+msgstr "Butun son kiriting"
+
+#: telegram/bot.py:118
+#, python-format
+msgid "min_amount %(min_amount)d"
+msgstr "Minimal yechib olish mumkin bo'lgan summa: %(min_amount)d"
+
+#: telegram/bot.py:125
+#, python-format
+msgid "transaction %(phone)s %(amount)d"
+msgstr "Telephone %(phone)s\n"
+"Summa: %(amount)d so'm"
+
+#: telegram/bot.py:130
+msgid "transaction_pending"
+msgstr "Adminlarga xabar yuborildi. Kanalni kuzating"
+
+#: telegram/bot.py:147
+#, python-format
+msgid "transaction_confirmed %(balance)d"
+msgstr "Siz pul yechib oldingiz! Balans: %(balance)d"
+
+#: telegram/bot.py:151
+#, python-format
+msgid "report %(phone)s %(amount)d"
+msgstr "Pul o'tkazildi:\n"
+"Tel: %(phone)s\n"
+"Summa: %(amount)d"
+
+#: telegram/bot.py:161
+msgid "transaction_cancelled"
+msgstr "Pul yechib olinmadi"
+
+#: telegram/bot.py:165
+msgid "main_menu_txt"
+msgstr "Asosiy menyu"
+
+#: telegram/channel_checker.py:34 telegram/channel_checker.py:44
+msgid "warning"
+msgstr "Siz kanaldan chiqib ketdingiz. 48 soat ichida qayta obuna bo'lmasangiz balansingiz kuyib ketadi"
+
+#: telegram/channel_checker.py:37
+#, python-format
+msgid "warning %(balance)d"
+msgstr "Siz kanalga qayta obuna bo'lmaganingiz uchun balansingiz kuyib ketdi. Balans: %(balance)d"
+
+#: telegram/keyboards.py:13
+msgid "join_channel_btn"
+msgstr " "
+
+#: telegram/keyboards.py:18
+msgid "send_phone_text"
+msgstr "Raqamni yuborish📞"
+
+#: telegram/keyboards.py:23 telegram/views.py:81
+msgid "earn_money_btn"
+msgstr "Pul ishlash💸"
+
+#: telegram/keyboards.py:24 telegram/views.py:84
+msgid "balance_btn"
+msgstr "Balans 💰"
+
+#: telegram/keyboards.py:24 telegram/views.py:87
+msgid "withdraw_money_btn"
+msgstr "Pul yechish 💳"
+
+#: telegram/keyboards.py:25 telegram/views.py:90
+msgid "history_btn"
+msgstr "To'lovlar tarixi📜"
+
+#: telegram/keyboards.py:26 telegram/views.py:93
+msgid "manual_btn"
+msgstr "Qo'llanma📄"
+
+#: telegram/keyboards.py:26 telegram/views.py:96
+msgid "statistics_btn"
+msgstr "Statistika📊"
+
+#: telegram/keyboards.py:37
+msgid "confirm"
+msgstr "✅Tasdiqlash"
+
+#: telegram/keyboards.py:38
+msgid "cancel"
+msgstr "❌Bekor qilish"

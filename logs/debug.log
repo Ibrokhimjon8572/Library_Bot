@@ -1,0 +1,560 @@
+Internal Server Error: /bot/
+Traceback (most recent call last):
+  File "/home/ubuntu/library_bot/env/lib/python3.10/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/ubuntu/library_bot/env/lib/python3.10/site-packages/django/core/handlers/base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ubuntu/library_bot/env/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/ubuntu/library_bot/telegram/views.py", line 26, in index
+    bot.process_new_updates([update])
+  File "/home/ubuntu/library_bot/env/lib/python3.10/site-packages/telebot/__init__.py", line 448, in process_new_updates
+    self.process_new_messages(new_messages)
+  File "/home/ubuntu/library_bot/env/lib/python3.10/site-packages/telebot/__init__.py", line 480, in process_new_messages
+    self._notify_command_handlers(self.message_handlers, new_messages, 'message')
+  File "/home/ubuntu/library_bot/env/lib/python3.10/site-packages/telebot/__init__.py", line 3971, in _notify_command_handlers
+    self._exec_task(message_handler['function'], message, pass_bot=message_handler['pass_bot'], task_type='handler')
+  File "/home/ubuntu/library_bot/env/lib/python3.10/site-packages/telebot/__init__.py", line 752, in _exec_task
+    raise e
+  File "/home/ubuntu/library_bot/env/lib/python3.10/site-packages/telebot/__init__.py", line 745, in _exec_task
+    task(*args, **kwargs)
+  File "/home/ubuntu/library_bot/telegram/views.py", line 68, in handle_text_message
+    control.handle_unknown()
+AttributeError: 'Control' object has no attribute 'handle_unknown'
+"POST /bot/ HTTP/1.1" 500 145
+Internal Server Error: /bot/
+Traceback (most recent call last):
+  File "/home/ubuntu/library_bot/env/lib/python3.10/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/ubuntu/library_bot/env/lib/python3.10/site-packages/django/core/handlers/base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ubuntu/library_bot/env/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/ubuntu/library_bot/telegram/views.py", line 26, in index
+    bot.process_new_updates([update])
+  File "/home/ubuntu/library_bot/env/lib/python3.10/site-packages/telebot/__init__.py", line 448, in process_new_updates
+    self.process_new_messages(new_messages)
+  File "/home/ubuntu/library_bot/env/lib/python3.10/site-packages/telebot/__init__.py", line 480, in process_new_messages
+    self._notify_command_handlers(self.message_handlers, new_messages, 'message')
+  File "/home/ubuntu/library_bot/env/lib/python3.10/site-packages/telebot/__init__.py", line 3971, in _notify_command_handlers
+    self._exec_task(message_handler['function'], message, pass_bot=message_handler['pass_bot'], task_type='handler')
+  File "/home/ubuntu/library_bot/env/lib/python3.10/site-packages/telebot/__init__.py", line 752, in _exec_task
+    raise e
+  File "/home/ubuntu/library_bot/env/lib/python3.10/site-packages/telebot/__init__.py", line 745, in _exec_task
+    task(*args, **kwargs)
+  File "/home/ubuntu/library_bot/telegram/views.py", line 68, in handle_text_message
+    control.handle_unknown()
+AttributeError: 'Control' object has no attribute 'handle_unknown'
+"POST /bot/ HTTP/1.1" 500 145
+Internal Server Error: /bot/
+Traceback (most recent call last):
+  File "/home/ubuntu/library_bot/env/lib/python3.10/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/ubuntu/library_bot/env/lib/python3.10/site-packages/django/core/handlers/base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ubuntu/library_bot/env/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/ubuntu/library_bot/telegram/views.py", line 26, in index
+    bot.process_new_updates([update])
+  File "/home/ubuntu/library_bot/env/lib/python3.10/site-packages/telebot/__init__.py", line 448, in process_new_updates
+    self.process_new_messages(new_messages)
+  File "/home/ubuntu/library_bot/env/lib/python3.10/site-packages/telebot/__init__.py", line 480, in process_new_messages
+    self._notify_command_handlers(self.message_handlers, new_messages, 'message')
+  File "/home/ubuntu/library_bot/env/lib/python3.10/site-packages/telebot/__init__.py", line 3971, in _notify_command_handlers
+    self._exec_task(message_handler['function'], message, pass_bot=message_handler['pass_bot'], task_type='handler')
+  File "/home/ubuntu/library_bot/env/lib/python3.10/site-packages/telebot/__init__.py", line 752, in _exec_task
+    raise e
+  File "/home/ubuntu/library_bot/env/lib/python3.10/site-packages/telebot/__init__.py", line 745, in _exec_task
+    task(*args, **kwargs)
+  File "/home/ubuntu/library_bot/telegram/views.py", line 68, in handle_text_message
+    control.handle_unknown()
+AttributeError: 'Control' object has no attribute 'handle_unknown'
+"POST /bot/ HTTP/1.1" 500 145
+Internal Server Error: /bot/
+Traceback (most recent call last):
+  File "/home/ubuntu/library_bot/env/lib/python3.10/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/ubuntu/library_bot/env/lib/python3.10/site-packages/django/core/handlers/base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ubuntu/library_bot/env/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/ubuntu/library_bot/telegram/views.py", line 26, in index
+    bot.process_new_updates([update])
+  File "/home/ubuntu/library_bot/env/lib/python3.10/site-packages/telebot/__init__.py", line 448, in process_new_updates
+    self.process_new_messages(new_messages)
+  File "/home/ubuntu/library_bot/env/lib/python3.10/site-packages/telebot/__init__.py", line 480, in process_new_messages
+    self._notify_command_handlers(self.message_handlers, new_messages, 'message')
+  File "/home/ubuntu/library_bot/env/lib/python3.10/site-packages/telebot/__init__.py", line 3971, in _notify_command_handlers
+    self._exec_task(message_handler['function'], message, pass_bot=message_handler['pass_bot'], task_type='handler')
+  File "/home/ubuntu/library_bot/env/lib/python3.10/site-packages/telebot/__init__.py", line 752, in _exec_task
+    raise e
+  File "/home/ubuntu/library_bot/env/lib/python3.10/site-packages/telebot/__init__.py", line 745, in _exec_task
+    task(*args, **kwargs)
+  File "/home/ubuntu/library_bot/telegram/views.py", line 68, in handle_text_message
+    control.handle_unknown()
+AttributeError: 'Control' object has no attribute 'handle_unknown'
+"POST /bot/ HTTP/1.1" 500 145
+Internal Server Error: /bot/
+Traceback (most recent call last):
+  File "/home/ubuntu/library_bot/env/lib/python3.10/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/ubuntu/library_bot/env/lib/python3.10/site-packages/django/core/handlers/base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ubuntu/library_bot/env/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/ubuntu/library_bot/telegram/views.py", line 26, in index
+    bot.process_new_updates([update])
+  File "/home/ubuntu/library_bot/env/lib/python3.10/site-packages/telebot/__init__.py", line 448, in process_new_updates
+    self.process_new_messages(new_messages)
+  File "/home/ubuntu/library_bot/env/lib/python3.10/site-packages/telebot/__init__.py", line 480, in process_new_messages
+    self._notify_command_handlers(self.message_handlers, new_messages, 'message')
+  File "/home/ubuntu/library_bot/env/lib/python3.10/site-packages/telebot/__init__.py", line 3971, in _notify_command_handlers
+    self._exec_task(message_handler['function'], message, pass_bot=message_handler['pass_bot'], task_type='handler')
+  File "/home/ubuntu/library_bot/env/lib/python3.10/site-packages/telebot/__init__.py", line 752, in _exec_task
+    raise e
+  File "/home/ubuntu/library_bot/env/lib/python3.10/site-packages/telebot/__init__.py", line 745, in _exec_task
+    task(*args, **kwargs)
+  File "/home/ubuntu/library_bot/telegram/views.py", line 68, in handle_text_message
+    control.handle_unknown()
+AttributeError: 'Control' object has no attribute 'handle_unknown'
+"POST /bot/ HTTP/1.1" 500 145
+Internal Server Error: /bot/
+Traceback (most recent call last):
+  File "/home/ubuntu/library_bot/env/lib/python3.10/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/ubuntu/library_bot/env/lib/python3.10/site-packages/django/core/handlers/base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ubuntu/library_bot/env/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/ubuntu/library_bot/telegram/views.py", line 26, in index
+    bot.process_new_updates([update])
+  File "/home/ubuntu/library_bot/env/lib/python3.10/site-packages/telebot/__init__.py", line 448, in process_new_updates
+    self.process_new_messages(new_messages)
+  File "/home/ubuntu/library_bot/env/lib/python3.10/site-packages/telebot/__init__.py", line 480, in process_new_messages
+    self._notify_command_handlers(self.message_handlers, new_messages, 'message')
+  File "/home/ubuntu/library_bot/env/lib/python3.10/site-packages/telebot/__init__.py", line 3971, in _notify_command_handlers
+    self._exec_task(message_handler['function'], message, pass_bot=message_handler['pass_bot'], task_type='handler')
+  File "/home/ubuntu/library_bot/env/lib/python3.10/site-packages/telebot/__init__.py", line 752, in _exec_task
+    raise e
+  File "/home/ubuntu/library_bot/env/lib/python3.10/site-packages/telebot/__init__.py", line 745, in _exec_task
+    task(*args, **kwargs)
+  File "/home/ubuntu/library_bot/telegram/views.py", line 64, in handle_text_message
+    control.handle_grade_sent(msg.from_user, msg.text)
+  File "/home/ubuntu/library_bot/telegram/bot.py", line 50, in handle_grade_sent
+    self.reply(ask_subject())
+TypeError: ask_subject() missing 1 required positional argument: 'grade'
+"POST /bot/ HTTP/1.1" 500 145
+Internal Server Error: /bot/
+Traceback (most recent call last):
+  File "/home/ubuntu/library_bot/env/lib/python3.10/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/ubuntu/library_bot/env/lib/python3.10/site-packages/django/core/handlers/base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ubuntu/library_bot/env/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/ubuntu/library_bot/telegram/views.py", line 26, in index
+    bot.process_new_updates([update])
+  File "/home/ubuntu/library_bot/env/lib/python3.10/site-packages/telebot/__init__.py", line 448, in process_new_updates
+    self.process_new_messages(new_messages)
+  File "/home/ubuntu/library_bot/env/lib/python3.10/site-packages/telebot/__init__.py", line 480, in process_new_messages
+    self._notify_command_handlers(self.message_handlers, new_messages, 'message')
+  File "/home/ubuntu/library_bot/env/lib/python3.10/site-packages/telebot/__init__.py", line 3971, in _notify_command_handlers
+    self._exec_task(message_handler['function'], message, pass_bot=message_handler['pass_bot'], task_type='handler')
+  File "/home/ubuntu/library_bot/env/lib/python3.10/site-packages/telebot/__init__.py", line 752, in _exec_task
+    raise e
+  File "/home/ubuntu/library_bot/env/lib/python3.10/site-packages/telebot/__init__.py", line 745, in _exec_task
+    task(*args, **kwargs)
+  File "/home/ubuntu/library_bot/telegram/views.py", line 67, in handle_text_message
+    control.handle_subject_sent(msg.from_user, msg.text)
+  File "/home/ubuntu/library_bot/telegram/bot.py", line 59, in handle_subject_sent
+    bot.send_document(self.user.user_id, file)
+  File "/home/ubuntu/library_bot/env/lib/python3.10/site-packages/telebot/__init__.py", line 1249, in send_document
+    apihelper.send_data(
+  File "/home/ubuntu/library_bot/env/lib/python3.10/site-packages/telebot/apihelper.py", line 900, in send_data
+    return _make_request(token, method_url, params=payload, files=files, method='post')
+  File "/home/ubuntu/library_bot/env/lib/python3.10/site-packages/telebot/apihelper.py", line 152, in _make_request
+    json_result = _check_result(method_name, result)
+  File "/home/ubuntu/library_bot/env/lib/python3.10/site-packages/telebot/apihelper.py", line 179, in _check_result
+    raise ApiTelegramException(method_name, result, result_json)
+telebot.apihelper.ApiTelegramException: A request to the Telegram API was unsuccessful. Error code: 413. Description: Request Entity Too Large
+"POST /bot/ HTTP/1.1" 500 145
+Internal Server Error: /bot/
+Traceback (most recent call last):
+  File "/home/ubuntu/library_bot/env/lib/python3.10/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/ubuntu/library_bot/env/lib/python3.10/site-packages/django/core/handlers/base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ubuntu/library_bot/env/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/ubuntu/library_bot/telegram/views.py", line 26, in index
+    bot.process_new_updates([update])
+  File "/home/ubuntu/library_bot/env/lib/python3.10/site-packages/telebot/__init__.py", line 448, in process_new_updates
+    self.process_new_messages(new_messages)
+  File "/home/ubuntu/library_bot/env/lib/python3.10/site-packages/telebot/__init__.py", line 480, in process_new_messages
+    self._notify_command_handlers(self.message_handlers, new_messages, 'message')
+  File "/home/ubuntu/library_bot/env/lib/python3.10/site-packages/telebot/__init__.py", line 3971, in _notify_command_handlers
+    self._exec_task(message_handler['function'], message, pass_bot=message_handler['pass_bot'], task_type='handler')
+  File "/home/ubuntu/library_bot/env/lib/python3.10/site-packages/telebot/__init__.py", line 752, in _exec_task
+    raise e
+  File "/home/ubuntu/library_bot/env/lib/python3.10/site-packages/telebot/__init__.py", line 745, in _exec_task
+    task(*args, **kwargs)
+  File "/home/ubuntu/library_bot/telegram/views.py", line 67, in handle_text_message
+    control.handle_subject_sent(msg.from_user, msg.text)
+  File "/home/ubuntu/library_bot/telegram/bot.py", line 62, in handle_subject_sent
+    print(bot.send_document(self.user.user_id, file))
+  File "/home/ubuntu/library_bot/env/lib/python3.10/site-packages/telebot/__init__.py", line 1249, in send_document
+    apihelper.send_data(
+  File "/home/ubuntu/library_bot/env/lib/python3.10/site-packages/telebot/apihelper.py", line 900, in send_data
+    return _make_request(token, method_url, params=payload, files=files, method='post')
+  File "/home/ubuntu/library_bot/env/lib/python3.10/site-packages/telebot/apihelper.py", line 152, in _make_request
+    json_result = _check_result(method_name, result)
+  File "/home/ubuntu/library_bot/env/lib/python3.10/site-packages/telebot/apihelper.py", line 179, in _check_result
+    raise ApiTelegramException(method_name, result, result_json)
+telebot.apihelper.ApiTelegramException: A request to the Telegram API was unsuccessful. Error code: 413. Description: Request Entity Too Large
+"POST /bot/ HTTP/1.1" 500 145
+Internal Server Error: /bot/
+Traceback (most recent call last):
+  File "/home/ubuntu/library_bot/env/lib/python3.10/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/ubuntu/library_bot/env/lib/python3.10/site-packages/django/core/handlers/base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ubuntu/library_bot/env/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/ubuntu/library_bot/telegram/views.py", line 26, in index
+    bot.process_new_updates([update])
+  File "/home/ubuntu/library_bot/env/lib/python3.10/site-packages/telebot/__init__.py", line 448, in process_new_updates
+    self.process_new_messages(new_messages)
+  File "/home/ubuntu/library_bot/env/lib/python3.10/site-packages/telebot/__init__.py", line 480, in process_new_messages
+    self._notify_command_handlers(self.message_handlers, new_messages, 'message')
+  File "/home/ubuntu/library_bot/env/lib/python3.10/site-packages/telebot/__init__.py", line 3971, in _notify_command_handlers
+    self._exec_task(message_handler['function'], message, pass_bot=message_handler['pass_bot'], task_type='handler')
+  File "/home/ubuntu/library_bot/env/lib/python3.10/site-packages/telebot/__init__.py", line 752, in _exec_task
+    raise e
+  File "/home/ubuntu/library_bot/env/lib/python3.10/site-packages/telebot/__init__.py", line 745, in _exec_task
+    task(*args, **kwargs)
+  File "/home/ubuntu/library_bot/telegram/views.py", line 67, in handle_text_message
+    control.handle_subject_sent(msg.from_user, msg.text)
+  File "/home/ubuntu/library_bot/telegram/bot.py", line 62, in handle_subject_sent
+    print(bot.send_document(self.user.user_id, file))
+  File "/home/ubuntu/library_bot/env/lib/python3.10/site-packages/telebot/__init__.py", line 1249, in send_document
+    apihelper.send_data(
+  File "/home/ubuntu/library_bot/env/lib/python3.10/site-packages/telebot/apihelper.py", line 900, in send_data
+    return _make_request(token, method_url, params=payload, files=files, method='post')
+  File "/home/ubuntu/library_bot/env/lib/python3.10/site-packages/telebot/apihelper.py", line 152, in _make_request
+    json_result = _check_result(method_name, result)
+  File "/home/ubuntu/library_bot/env/lib/python3.10/site-packages/telebot/apihelper.py", line 179, in _check_result
+    raise ApiTelegramException(method_name, result, result_json)
+telebot.apihelper.ApiTelegramException: A request to the Telegram API was unsuccessful. Error code: 413. Description: Request Entity Too Large
+"POST /bot/ HTTP/1.1" 500 145
+Internal Server Error: /bot/
+Traceback (most recent call last):
+  File "/home/ubuntu/library_bot/env/lib/python3.10/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/ubuntu/library_bot/env/lib/python3.10/site-packages/django/core/handlers/base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ubuntu/library_bot/env/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/ubuntu/library_bot/telegram/views.py", line 26, in index
+    bot.process_new_updates([update])
+  File "/home/ubuntu/library_bot/env/lib/python3.10/site-packages/telebot/__init__.py", line 448, in process_new_updates
+    self.process_new_messages(new_messages)
+  File "/home/ubuntu/library_bot/env/lib/python3.10/site-packages/telebot/__init__.py", line 480, in process_new_messages
+    self._notify_command_handlers(self.message_handlers, new_messages, 'message')
+  File "/home/ubuntu/library_bot/env/lib/python3.10/site-packages/telebot/__init__.py", line 3971, in _notify_command_handlers
+    self._exec_task(message_handler['function'], message, pass_bot=message_handler['pass_bot'], task_type='handler')
+  File "/home/ubuntu/library_bot/env/lib/python3.10/site-packages/telebot/__init__.py", line 752, in _exec_task
+    raise e
+  File "/home/ubuntu/library_bot/env/lib/python3.10/site-packages/telebot/__init__.py", line 745, in _exec_task
+    task(*args, **kwargs)
+  File "/home/ubuntu/library_bot/telegram/views.py", line 74, in handle_document
+    book.subject = msg.document.file_name
+  File "/home/ubuntu/library_bot/env/lib/python3.10/site-packages/django/db/models/fields/related_descriptors.py", line 215, in __set__
+    raise ValueError(
+ValueError: Cannot assign "'5.informatika. Azamatov B.pdf'": "Book.subject" must be a "BookSubject" instance.
+"POST /bot/ HTTP/1.1" 500 145
+Internal Server Error: /bot/
+Traceback (most recent call last):
+  File "/home/ubuntu/library_bot/env/lib/python3.10/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/ubuntu/library_bot/env/lib/python3.10/site-packages/django/core/handlers/base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ubuntu/library_bot/env/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/ubuntu/library_bot/telegram/views.py", line 26, in index
+    bot.process_new_updates([update])
+  File "/home/ubuntu/library_bot/env/lib/python3.10/site-packages/telebot/__init__.py", line 448, in process_new_updates
+    self.process_new_messages(new_messages)
+  File "/home/ubuntu/library_bot/env/lib/python3.10/site-packages/telebot/__init__.py", line 480, in process_new_messages
+    self._notify_command_handlers(self.message_handlers, new_messages, 'message')
+  File "/home/ubuntu/library_bot/env/lib/python3.10/site-packages/telebot/__init__.py", line 3971, in _notify_command_handlers
+    self._exec_task(message_handler['function'], message, pass_bot=message_handler['pass_bot'], task_type='handler')
+  File "/home/ubuntu/library_bot/env/lib/python3.10/site-packages/telebot/__init__.py", line 752, in _exec_task
+    raise e
+  File "/home/ubuntu/library_bot/env/lib/python3.10/site-packages/telebot/__init__.py", line 745, in _exec_task
+    task(*args, **kwargs)
+  File "/home/ubuntu/library_bot/telegram/views.py", line 74, in handle_document
+    book.subject = msg.document.file_name
+  File "/home/ubuntu/library_bot/env/lib/python3.10/site-packages/django/db/models/fields/related_descriptors.py", line 215, in __set__
+    raise ValueError(
+ValueError: Cannot assign "'5.informatika. Azamatov B.pdf'": "Book.subject" must be a "BookSubject" instance.
+"POST /bot/ HTTP/1.1" 500 145
+Internal Server Error: /bot/
+Traceback (most recent call last):
+  File "/home/ubuntu/library_bot/env/lib/python3.10/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/ubuntu/library_bot/env/lib/python3.10/site-packages/django/core/handlers/base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ubuntu/library_bot/env/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/ubuntu/library_bot/telegram/views.py", line 26, in index
+    bot.process_new_updates([update])
+  File "/home/ubuntu/library_bot/env/lib/python3.10/site-packages/telebot/__init__.py", line 448, in process_new_updates
+    self.process_new_messages(new_messages)
+  File "/home/ubuntu/library_bot/env/lib/python3.10/site-packages/telebot/__init__.py", line 480, in process_new_messages
+    self._notify_command_handlers(self.message_handlers, new_messages, 'message')
+  File "/home/ubuntu/library_bot/env/lib/python3.10/site-packages/telebot/__init__.py", line 3971, in _notify_command_handlers
+    self._exec_task(message_handler['function'], message, pass_bot=message_handler['pass_bot'], task_type='handler')
+  File "/home/ubuntu/library_bot/env/lib/python3.10/site-packages/telebot/__init__.py", line 752, in _exec_task
+    raise e
+  File "/home/ubuntu/library_bot/env/lib/python3.10/site-packages/telebot/__init__.py", line 745, in _exec_task
+    task(*args, **kwargs)
+  File "/home/ubuntu/library_bot/telegram/views.py", line 74, in handle_document
+    book.subject = msg.document.file_name
+  File "/home/ubuntu/library_bot/env/lib/python3.10/site-packages/django/db/models/fields/related_descriptors.py", line 215, in __set__
+    raise ValueError(
+ValueError: Cannot assign "'5.informatika. Azamatov B.pdf'": "Book.subject" must be a "BookSubject" instance.
+"POST /bot/ HTTP/1.1" 500 145
+Internal Server Error: /bot/
+Traceback (most recent call last):
+  File "/home/ubuntu/library_bot/env/lib/python3.10/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/ubuntu/library_bot/env/lib/python3.10/site-packages/django/core/handlers/base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ubuntu/library_bot/env/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/ubuntu/library_bot/telegram/views.py", line 26, in index
+    bot.process_new_updates([update])
+  File "/home/ubuntu/library_bot/env/lib/python3.10/site-packages/telebot/__init__.py", line 448, in process_new_updates
+    self.process_new_messages(new_messages)
+  File "/home/ubuntu/library_bot/env/lib/python3.10/site-packages/telebot/__init__.py", line 480, in process_new_messages
+    self._notify_command_handlers(self.message_handlers, new_messages, 'message')
+  File "/home/ubuntu/library_bot/env/lib/python3.10/site-packages/telebot/__init__.py", line 3971, in _notify_command_handlers
+    self._exec_task(message_handler['function'], message, pass_bot=message_handler['pass_bot'], task_type='handler')
+  File "/home/ubuntu/library_bot/env/lib/python3.10/site-packages/telebot/__init__.py", line 752, in _exec_task
+    raise e
+  File "/home/ubuntu/library_bot/env/lib/python3.10/site-packages/telebot/__init__.py", line 745, in _exec_task
+    task(*args, **kwargs)
+  File "/home/ubuntu/library_bot/telegram/views.py", line 74, in handle_document
+    book.subject = msg.document.file_name
+  File "/home/ubuntu/library_bot/env/lib/python3.10/site-packages/django/db/models/fields/related_descriptors.py", line 215, in __set__
+    raise ValueError(
+ValueError: Cannot assign "'5.informatika. Azamatov B.pdf'": "Book.subject" must be a "BookSubject" instance.
+"POST /bot/ HTTP/1.1" 500 145
+Internal Server Error: /bot/
+Traceback (most recent call last):
+  File "/home/ubuntu/library_bot/env/lib/python3.10/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/ubuntu/library_bot/env/lib/python3.10/site-packages/django/core/handlers/base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ubuntu/library_bot/env/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/ubuntu/library_bot/telegram/views.py", line 26, in index
+    bot.process_new_updates([update])
+  File "/home/ubuntu/library_bot/env/lib/python3.10/site-packages/telebot/__init__.py", line 448, in process_new_updates
+    self.process_new_messages(new_messages)
+  File "/home/ubuntu/library_bot/env/lib/python3.10/site-packages/telebot/__init__.py", line 480, in process_new_messages
+    self._notify_command_handlers(self.message_handlers, new_messages, 'message')
+  File "/home/ubuntu/library_bot/env/lib/python3.10/site-packages/telebot/__init__.py", line 3971, in _notify_command_handlers
+    self._exec_task(message_handler['function'], message, pass_bot=message_handler['pass_bot'], task_type='handler')
+  File "/home/ubuntu/library_bot/env/lib/python3.10/site-packages/telebot/__init__.py", line 752, in _exec_task
+    raise e
+  File "/home/ubuntu/library_bot/env/lib/python3.10/site-packages/telebot/__init__.py", line 745, in _exec_task
+    task(*args, **kwargs)
+  File "/home/ubuntu/library_bot/telegram/views.py", line 74, in handle_document
+    book.subject = msg.document.file_name
+  File "/home/ubuntu/library_bot/env/lib/python3.10/site-packages/django/db/models/fields/related_descriptors.py", line 215, in __set__
+    raise ValueError(
+ValueError: Cannot assign "'5.informatika. Azamatov B.pdf'": "Book.subject" must be a "BookSubject" instance.
+"POST /bot/ HTTP/1.1" 500 145
+Internal Server Error: /bot/
+Traceback (most recent call last):
+  File "/home/ubuntu/library_bot/env/lib/python3.10/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/ubuntu/library_bot/env/lib/python3.10/site-packages/django/core/handlers/base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ubuntu/library_bot/env/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/ubuntu/library_bot/telegram/views.py", line 26, in index
+    bot.process_new_updates([update])
+  File "/home/ubuntu/library_bot/env/lib/python3.10/site-packages/telebot/__init__.py", line 448, in process_new_updates
+    self.process_new_messages(new_messages)
+  File "/home/ubuntu/library_bot/env/lib/python3.10/site-packages/telebot/__init__.py", line 480, in process_new_messages
+    self._notify_command_handlers(self.message_handlers, new_messages, 'message')
+  File "/home/ubuntu/library_bot/env/lib/python3.10/site-packages/telebot/__init__.py", line 3971, in _notify_command_handlers
+    self._exec_task(message_handler['function'], message, pass_bot=message_handler['pass_bot'], task_type='handler')
+  File "/home/ubuntu/library_bot/env/lib/python3.10/site-packages/telebot/__init__.py", line 752, in _exec_task
+    raise e
+  File "/home/ubuntu/library_bot/env/lib/python3.10/site-packages/telebot/__init__.py", line 745, in _exec_task
+    task(*args, **kwargs)
+  File "/home/ubuntu/library_bot/telegram/views.py", line 74, in handle_document
+    book.subject = msg.document.file_name
+  File "/home/ubuntu/library_bot/env/lib/python3.10/site-packages/django/db/models/fields/related_descriptors.py", line 215, in __set__
+    raise ValueError(
+ValueError: Cannot assign "'5.informatika. Azamatov B.pdf'": "Book.subject" must be a "BookSubject" instance.
+"POST /bot/ HTTP/1.1" 500 145
+Internal Server Error: /bot/
+Traceback (most recent call last):
+  File "/home/ubuntu/library_bot/env/lib/python3.10/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/ubuntu/library_bot/env/lib/python3.10/site-packages/django/core/handlers/base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ubuntu/library_bot/env/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/ubuntu/library_bot/telegram/views.py", line 26, in index
+    bot.process_new_updates([update])
+  File "/home/ubuntu/library_bot/env/lib/python3.10/site-packages/telebot/__init__.py", line 448, in process_new_updates
+    self.process_new_messages(new_messages)
+  File "/home/ubuntu/library_bot/env/lib/python3.10/site-packages/telebot/__init__.py", line 480, in process_new_messages
+    self._notify_command_handlers(self.message_handlers, new_messages, 'message')
+  File "/home/ubuntu/library_bot/env/lib/python3.10/site-packages/telebot/__init__.py", line 3971, in _notify_command_handlers
+    self._exec_task(message_handler['function'], message, pass_bot=message_handler['pass_bot'], task_type='handler')
+  File "/home/ubuntu/library_bot/env/lib/python3.10/site-packages/telebot/__init__.py", line 752, in _exec_task
+    raise e
+  File "/home/ubuntu/library_bot/env/lib/python3.10/site-packages/telebot/__init__.py", line 745, in _exec_task
+    task(*args, **kwargs)
+  File "/home/ubuntu/library_bot/telegram/views.py", line 74, in handle_document
+    book.subject = msg.document.file_name
+  File "/home/ubuntu/library_bot/env/lib/python3.10/site-packages/django/db/models/fields/related_descriptors.py", line 215, in __set__
+    raise ValueError(
+ValueError: Cannot assign "'5.informatika. Azamatov B.pdf'": "Book.subject" must be a "BookSubject" instance.
+"POST /bot/ HTTP/1.1" 500 145
+Internal Server Error: /bot/
+Traceback (most recent call last):
+  File "/home/ubuntu/library_bot/env/lib/python3.10/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/ubuntu/library_bot/env/lib/python3.10/site-packages/django/core/handlers/base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ubuntu/library_bot/env/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/ubuntu/library_bot/telegram/views.py", line 26, in index
+    bot.process_new_updates([update])
+  File "/home/ubuntu/library_bot/env/lib/python3.10/site-packages/telebot/__init__.py", line 448, in process_new_updates
+    self.process_new_messages(new_messages)
+  File "/home/ubuntu/library_bot/env/lib/python3.10/site-packages/telebot/__init__.py", line 480, in process_new_messages
+    self._notify_command_handlers(self.message_handlers, new_messages, 'message')
+  File "/home/ubuntu/library_bot/env/lib/python3.10/site-packages/telebot/__init__.py", line 3971, in _notify_command_handlers
+    self._exec_task(message_handler['function'], message, pass_bot=message_handler['pass_bot'], task_type='handler')
+  File "/home/ubuntu/library_bot/env/lib/python3.10/site-packages/telebot/__init__.py", line 752, in _exec_task
+    raise e
+  File "/home/ubuntu/library_bot/env/lib/python3.10/site-packages/telebot/__init__.py", line 745, in _exec_task
+    task(*args, **kwargs)
+  File "/home/ubuntu/library_bot/telegram/views.py", line 74, in handle_document
+    book.subject = msg.document.file_name
+  File "/home/ubuntu/library_bot/env/lib/python3.10/site-packages/django/db/models/fields/related_descriptors.py", line 215, in __set__
+    raise ValueError(
+ValueError: Cannot assign "'5.informatika. Azamatov B.pdf'": "Book.subject" must be a "BookSubject" instance.
+"POST /bot/ HTTP/1.1" 500 145
+Internal Server Error: /bot/
+Traceback (most recent call last):
+  File "/home/ubuntu/library_bot/env/lib/python3.10/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/ubuntu/library_bot/env/lib/python3.10/site-packages/django/core/handlers/base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ubuntu/library_bot/env/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/ubuntu/library_bot/telegram/views.py", line 26, in index
+    bot.process_new_updates([update])
+  File "/home/ubuntu/library_bot/env/lib/python3.10/site-packages/telebot/__init__.py", line 448, in process_new_updates
+    self.process_new_messages(new_messages)
+  File "/home/ubuntu/library_bot/env/lib/python3.10/site-packages/telebot/__init__.py", line 480, in process_new_messages
+    self._notify_command_handlers(self.message_handlers, new_messages, 'message')
+  File "/home/ubuntu/library_bot/env/lib/python3.10/site-packages/telebot/__init__.py", line 3971, in _notify_command_handlers
+    self._exec_task(message_handler['function'], message, pass_bot=message_handler['pass_bot'], task_type='handler')
+  File "/home/ubuntu/library_bot/env/lib/python3.10/site-packages/telebot/__init__.py", line 752, in _exec_task
+    raise e
+  File "/home/ubuntu/library_bot/env/lib/python3.10/site-packages/telebot/__init__.py", line 745, in _exec_task
+    task(*args, **kwargs)
+  File "/home/ubuntu/library_bot/telegram/views.py", line 74, in handle_document
+    book.subject = msg.document.file_name
+  File "/home/ubuntu/library_bot/env/lib/python3.10/site-packages/django/db/models/fields/related_descriptors.py", line 215, in __set__
+    raise ValueError(
+ValueError: Cannot assign "'5.informatika. Azamatov B.pdf'": "Book.subject" must be a "BookSubject" instance.
+"POST /bot/ HTTP/1.1" 500 145
+Internal Server Error: /bot/
+Traceback (most recent call last):
+  File "/home/ubuntu/library_bot/env/lib/python3.10/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/ubuntu/library_bot/env/lib/python3.10/site-packages/django/core/handlers/base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ubuntu/library_bot/env/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/ubuntu/library_bot/telegram/views.py", line 26, in index
+    bot.process_new_updates([update])
+  File "/home/ubuntu/library_bot/env/lib/python3.10/site-packages/telebot/__init__.py", line 448, in process_new_updates
+    self.process_new_messages(new_messages)
+  File "/home/ubuntu/library_bot/env/lib/python3.10/site-packages/telebot/__init__.py", line 480, in process_new_messages
+    self._notify_command_handlers(self.message_handlers, new_messages, 'message')
+  File "/home/ubuntu/library_bot/env/lib/python3.10/site-packages/telebot/__init__.py", line 3971, in _notify_command_handlers
+    self._exec_task(message_handler['function'], message, pass_bot=message_handler['pass_bot'], task_type='handler')
+  File "/home/ubuntu/library_bot/env/lib/python3.10/site-packages/telebot/__init__.py", line 752, in _exec_task
+    raise e
+  File "/home/ubuntu/library_bot/env/lib/python3.10/site-packages/telebot/__init__.py", line 745, in _exec_task
+    task(*args, **kwargs)
+  File "/home/ubuntu/library_bot/telegram/views.py", line 74, in handle_document
+    book.subject = msg.document.file_name
+  File "/home/ubuntu/library_bot/env/lib/python3.10/site-packages/django/db/models/fields/related_descriptors.py", line 215, in __set__
+    raise ValueError(
+ValueError: Cannot assign "'5.informatika. Azamatov B.pdf'": "Book.subject" must be a "BookSubject" instance.
+"POST /bot/ HTTP/1.1" 500 145
+Internal Server Error: /bot/
+Traceback (most recent call last):
+  File "/home/ubuntu/library_bot/env/lib/python3.10/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/ubuntu/library_bot/env/lib/python3.10/site-packages/django/core/handlers/base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ubuntu/library_bot/env/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/ubuntu/library_bot/telegram/views.py", line 26, in index
+    bot.process_new_updates([update])
+  File "/home/ubuntu/library_bot/env/lib/python3.10/site-packages/telebot/__init__.py", line 448, in process_new_updates
+    self.process_new_messages(new_messages)
+  File "/home/ubuntu/library_bot/env/lib/python3.10/site-packages/telebot/__init__.py", line 480, in process_new_messages
+    self._notify_command_handlers(self.message_handlers, new_messages, 'message')
+  File "/home/ubuntu/library_bot/env/lib/python3.10/site-packages/telebot/__init__.py", line 3971, in _notify_command_handlers
+    self._exec_task(message_handler['function'], message, pass_bot=message_handler['pass_bot'], task_type='handler')
+  File "/home/ubuntu/library_bot/env/lib/python3.10/site-packages/telebot/__init__.py", line 752, in _exec_task
+    raise e
+  File "/home/ubuntu/library_bot/env/lib/python3.10/site-packages/telebot/__init__.py", line 745, in _exec_task
+    task(*args, **kwargs)
+  File "/home/ubuntu/library_bot/telegram/views.py", line 74, in handle_document
+    book.subject = msg.document.file_name
+  File "/home/ubuntu/library_bot/env/lib/python3.10/site-packages/django/db/models/fields/related_descriptors.py", line 215, in __set__
+    raise ValueError(
+ValueError: Cannot assign "'5.informatika. Azamatov B.pdf'": "Book.subject" must be a "BookSubject" instance.
+"POST /bot/ HTTP/1.1" 500 145
+Internal Server Error: /bot/
+Traceback (most recent call last):
+  File "/home/ubuntu/library_bot/env/lib/python3.10/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/ubuntu/library_bot/env/lib/python3.10/site-packages/django/core/handlers/base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ubuntu/library_bot/env/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/ubuntu/library_bot/telegram/views.py", line 26, in index
+    bot.process_new_updates([update])
+  File "/home/ubuntu/library_bot/env/lib/python3.10/site-packages/telebot/__init__.py", line 448, in process_new_updates
+    self.process_new_messages(new_messages)
+  File "/home/ubuntu/library_bot/env/lib/python3.10/site-packages/telebot/__init__.py", line 480, in process_new_messages
+    self._notify_command_handlers(self.message_handlers, new_messages, 'message')
+  File "/home/ubuntu/library_bot/env/lib/python3.10/site-packages/telebot/__init__.py", line 3971, in _notify_command_handlers
+    self._exec_task(message_handler['function'], message, pass_bot=message_handler['pass_bot'], task_type='handler')
+  File "/home/ubuntu/library_bot/env/lib/python3.10/site-packages/telebot/__init__.py", line 752, in _exec_task
+    raise e
+  File "/home/ubuntu/library_bot/env/lib/python3.10/site-packages/telebot/__init__.py", line 745, in _exec_task
+    task(*args, **kwargs)
+  File "/home/ubuntu/library_bot/telegram/views.py", line 74, in handle_document
+    book.subject = msg.document.file_name
+  File "/home/ubuntu/library_bot/env/lib/python3.10/site-packages/django/db/models/fields/related_descriptors.py", line 215, in __set__
+    raise ValueError(
+ValueError: Cannot assign "'5.informatika. Azamatov B.pdf'": "Book.subject" must be a "BookSubject" instance.
+"POST /bot/ HTTP/1.1" 500 145
